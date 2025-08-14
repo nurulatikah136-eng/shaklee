@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Shaklee Shop — Products</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Shaklee Shop</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">All Products</h1>
+
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Search products…" />
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="Promotion">Promotion</option>
+        <option value="OoS">Out of Stock</option>
+        <option value="InStock">In Stock</option>
+      </select>
+    </div>
+
+    <div id="grid" class="products-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>©2025 Shaklee Products (Malaysia) Sdn Bhd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const money = (n) => `RM${Number(n).toFixed(2)}`;
+    const placeholder = 'assets/img/placeholder-shaklee.png';
+
+    const statusLabel = (status) => {
+      if (status === 'Promotion') return '<span class="badge promo">Promotion</span>';
+      if (status === 'OoS') return '<span class="badge oos">Out of Stock</span>';
+      return '';
+    };
+
+    const inStockStatus = (status) => (status === 'OoS' ? 'OoS' : (status === 'Promotion' ? 'Promotion' : 'InStock'));
+
+    let PRODUCTS = [];
+    const grid = document.getElementById('grid');
+    const search = document.getElementById('search');
+    const filter = document.getElementById('filter');
+
+    function render(list) {
+      grid.innerHTML = list.map(p => `
+        <article class="product-card">
+          <div class="product-media">
+            <img src="${p.image || placeholder}" alt="${p.name}" onerror="this.src='${placeholder}'">
+            ${statusLabel(p.status)}
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">${p.name}</h3>
+            <p class="muted">Code: ${p.code}</p>
+            <p><b>Distributor:</b> ${money(p.distributor_price)}</p>
+            <p><b>Retail:</b> ${p.retail_price !== null ? money(p.retail_price) : '-'}</p>
+            <p class="muted">UV: ${p.uv} • PV: ${p.pv}</p>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function applyFilters() {
+      const q = search.value.trim().toLowerCase();
+      const f = filter.value;
+      const list = PRODUCTS.filter(p => {
+        const matchesText = [p.name, p.code].join(' ').toLowerCase().includes(q);
+        const stock = inStockStatus(p.status);
+        const matchesFilter = (f === 'all') || (f === stock) || (p.status === f);
+        return matchesText && matchesFilter;
+      });
+      render(list);
+    }
+
+    fetch('products.json')
+      .then(r => r.json())
+      .then(data => {
+        PRODUCTS = data;
+        render(PRODUCTS);
+      });
+
+    search.addEventListener('input', applyFilters);
+    filter.addEventListener('change', applyFilters);
+  </script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Cinch® Weight Management Set (Café Latte)",
+    "code": "A0P036",
+    "distributor_price": 445.0,
+    "retail_price": 556.25,
+    "uv": 108,
+    "pv": 398,
+    "status": "Promotion",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Cinch® Weight Management Set (Chocolate)",
+    "code": "A0P037",
+    "distributor_price": 445.0,
+    "retail_price": 556.25,
+    "uv": 108,
+    "pv": 398,
+    "status": "Promotion",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Collagen Plus Powder FREE Glass Tumbler (Pink)",
+    "code": "A0P069",
+    "distributor_price": 238.0,
+    "retail_price": 298.0,
+    "uv": 69,
+    "pv": 226,
+    "status": "Promotion",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Collagen Plus Powder FREE Glass Tumbler (Purple)",
+    "code": "A0P070",
+    "distributor_price": 238.0,
+    "retail_price": 298.0,
+    "uv": 69,
+    "pv": 226,
+    "status": "Promotion",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Shaklee Shaker - 600ml (Black)",
+    "code": "P0176",
+    "distributor_price": 20.0,
+    "retail_price": 25.0,
+    "uv": 0,
+    "pv": 0,
+    "status": "Promotion",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Shaklee Shaker - 600ml (Purple)",
+    "code": "P0177",
+    "distributor_price": 20.0,
+    "retail_price": 25.0,
+    "uv": 0,
+    "pv": 0,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Alfalfa Complex (330 Tablets)",
+    "code": "10159",
+    "distributor_price": 61.0,
+    "retail_price": 76.25,
+    "uv": 14,
+    "pv": 52,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "B-Complex Plus with Folic Acid",
+    "code": "10164",
+    "distributor_price": 70.0,
+    "retail_price": 87.5,
+    "uv": 14,
+    "pv": 55,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Basic H² ® Organic Super Cleaning Concentrate",
+    "code": "11016",
+    "distributor_price": 39.0,
+    "retail_price": 48.75,
+    "uv": 12,
+    "pv": 20,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "CarotoMix",
+    "code": "11042",
+    "distributor_price": 65.0,
+    "retail_price": 81.25,
+    "uv": 18,
+    "pv": 60,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "GET CLEAN® Spray Bottle (3 units)",
+    "code": "00P739",
+    "distributor_price": 19.9,
+    "retail_price": 24.9,
+    "uv": 0,
+    "pv": 0,
+    "status": "OoS",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Get Fit & Glow @ Subang - 16 AUG 2025",
+    "code": "M0081",
+    "distributor_price": 60.0,
+    "retail_price": null,
+    "uv": 0,
+    "pv": 0,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "GLA Complex",
+    "code": "10620",
+    "distributor_price": 74.0,
+    "retail_price": 92.5,
+    "uv": 22,
+    "pv": 73,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Gold Ambassador Pack",
+    "code": "MPEE28",
+    "distributor_price": 1509.0,
+    "retail_price": 1886.25,
+    "uv": 405,
+    "pv": 1382,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Hand Dish Wash Liquid Concentrate",
+    "code": "11018",
+    "distributor_price": 42.0,
+    "retail_price": 52.5,
+    "uv": 7,
+    "pv": 21,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Herb-Lax™",
+    "code": "11007",
+    "distributor_price": 61.0,
+    "retail_price": 76.25,
+    "uv": 14,
+    "pv": 52,
+    "status": "OoS",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Herbal Blend® Multi-Purpose Cream",
+    "code": "11020",
+    "distributor_price": 34.0,
+    "retail_price": 42.5,
+    "uv": 7,
+    "pv": 30,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Joyful Journey Set",
+    "code": "00P981",
+    "distributor_price": 648.0,
+    "retail_price": 810.0,
+    "uv": 159,
+    "pv": 554,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Lecithin",
+    "code": "10163",
+    "distributor_price": 69.0,
+    "retail_price": 86.25,
+    "uv": 15,
+    "pv": 58,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Life Cinch® Mixed Soy Protein Café Latte Shake",
+    "code": "11012",
+    "distributor_price": 152.0,
+    "retail_price": 190.0,
+    "uv": 35,
+    "pv": 141,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Life Cinch® Mixed Soy Protein Chocolate Shake",
+    "code": "11011",
+    "distributor_price": 152.0,
+    "retail_price": 190.0,
+    "uv": 35,
+    "pv": 141,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "New Beginnings Set",
+    "code": "00P982",
+    "distributor_price": 587.0,
+    "retail_price": 733.75,
+    "uv": 145,
+    "pv": 502,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "NutriFeron® Granules",
+    "code": "11028",
+    "distributor_price": 159.0,
+    "retail_price": 198.75,
+    "uv": 42,
+    "pv": 145,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Omega Guard™",
+    "code": "10236",
+    "distributor_price": 114.0,
+    "retail_price": 142.5,
+    "uv": 33,
+    "pv": 109,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "OsteNutrix",
+    "code": "10128",
+    "distributor_price": 63.0,
+    "retail_price": 78.75,
+    "uv": 15,
+    "pv": 52,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Pain Relief Caplet",
+    "code": "11022",
+    "distributor_price": 108.0,
+    "retail_price": 135.0,
+    "uv": 26,
+    "pv": 93,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Peppermint-Ginger Plus",
+    "code": "10126",
+    "distributor_price": 69.0,
+    "retail_price": 86.25,
+    "uv": 15,
+    "pv": 58,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Performance™ Natural Lemon-Lime",
+    "code": "11032",
+    "distributor_price": 125.0,
+    "retail_price": 156.25,
+    "uv": 32,
+    "pv": 114,
+    "status": "OoS",
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Performance™ Natural Orange",
+    "code": "11053",
+    "distributor_price": 125.0,
+    "retail_price": 156.25,
+    "uv": 32,
+    "pv": 114,
+    "image": "assets/img/placeholder-shaklee.png"
+  },
+  {
+    "name": "Phytocol-ST®",
+    "code": "11006",
+    "distributor_price": 166.0,
+    "retail_price": 207.5,
+    "uv": 46,
+    "pv": 158,
+    "image": "assets/img/placeholder-shaklee.png"
+  }
+]
